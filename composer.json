@@ -1,6 +1,7 @@
 {
     "name": "ghuttu/lap-time",
     "description": "A little helper package for working with lap times",
+    "license": "MIT",
     "authors": [
         {
             "name": "Greger Huttu",
