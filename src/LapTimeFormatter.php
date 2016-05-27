@@ -1,12 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: ghuttu
- * Date: 26.5.2016
- * Time: 22:23
- */
 
-namespace Ghuttu\Helpers\LapTime;
+namespace Ghuttu\Helpers;
 
 
 class LapTimeFormatter

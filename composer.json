@@ -16,7 +16,7 @@
     },
 	"autoload": {
         "psr-4": {
-            "Ghuttu\\Helpers\\LapTime\\": "src/"
+            "Ghuttu\\Helpers\\": "src/"
         }
     }
 }

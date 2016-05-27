@@ -1,6 +1,6 @@
 <?php
 
-namespace Ghuttu\Helpers\LapTime;
+namespace Ghuttu\Helpers;
 
 
 class LapTime
