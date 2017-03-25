@@ -68,6 +68,9 @@ class LapTimeFormatter
             $milliseconds .= substr($millis, -2) == 0 ? '0' : '';
         }
 
+        // Cut milliseconds to three digits
+        $milliseconds = substr($milliseconds, 0, 3);
+
         return $milliseconds;
     }
 

@@ -51,4 +51,9 @@ class LapTimeTest extends PHPUnit_Framework_TestCase
     {
         $this->assertEquals('1:00.000', LapTime::fromSeconds(60));
     }
+
+    /** @test */
+    public function formats_a_string_with_only_three_decimal_digits_from_seconds(){
+        $this->assertEquals('1:22.384', LapTime::fromSeconds(82.3841045));
+    }
 }
